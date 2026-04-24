@@ -1,11 +1,15 @@
 body {
-  font-family: 'Inter', Arial, sans-serif; /* A more modern font */
-  background: #f0f2f5;
-  margin: 0;
-  padding: 20px;
-  display: flex; /* Centers the container better */
-  justify-content: center;
+    font-family: 'Inter', Arial, sans-serif;
+    background: #f0f2f5;
+    margin: 0;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    /* Add these two lines below */
+    scroll-behavior: smooth;
+    -webkit-overflow-scrolling: touch;
 }
+
 
 ..container {
   max-width: 400px;
