@@ -91,6 +91,6 @@ function convertCurrency() {
 
     const display = document.getElementById('converted-amount');
     display.innerText = `Value in Initia: ${initiaAmount} INIT`;
-    display.style.color = "#28a745"; 
+    display.style.color = "#ffffff"; 
     display.style.fontWeight = "bold";
 }
