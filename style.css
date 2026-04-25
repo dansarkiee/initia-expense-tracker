@@ -78,3 +78,25 @@ li {
 
 .income-item { border-left-color: #4caf50; }
 .expense-item { border-left-color: #f44336; }
+
+/* Fix for Smart Insights text readability */
+#prediction-text {
+    color: #2c3e50 !important; /* A deep dark blue/grey that's very easy to read on white */
+    font-weight: 500;
+    line-height: 1.4;
+    margin-top: 10px;
+}
+
+/* Fix for the Converter text on the green background */
+#converted-amount {
+    color: #ffffff !important; /* Pure white */
+    font-weight: bold;
+    text-shadow: 1px 1px 2px rgba(0,0,0,0.2); /* Adds a tiny shadow to make it pop */
+}
+
+/* Optional: Make the "Smart Insights" title stand out */
+.stats-box h3 {
+    color: #000000;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 5px;
+}
