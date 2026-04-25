@@ -73,3 +73,24 @@ form.addEventListener("submit", function(e) {
 
 // INITIALIZE ON PAGE LOAD
 updateApp();
+
+// ADD THIS AT THE BOTTOM (Line 77)
+function convertCurrency() {
+    const balanceElement = document.getElementById('balance');
+    // This removes the comma from the Naira string so math can be done
+    const balanceValue = balanceElement.innerText.replace(/,/g, '');
+    const totalNaira = parseFloat(balanceValue);
+
+    if (isNaN(totalNaira) || totalNaira <= 0) {
+        alert("Please add some income first!");
+        return;
+    }
+
+    const rate = 1200; // 1 INIT = 1,200 Naira
+    const initiaAmount = (totalNaira / rate).toFixed(4);
+
+    const display = document.getElementById('converted-amount');
+    display.innerText = `Value in Initia: ${initiaAmount} INIT`;
+    display.style.color = "#28a745"; 
+    display.style.fontWeight = "bold";
+}
